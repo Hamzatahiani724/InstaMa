@@ -1,0 +1,195 @@
+/* Reset The page */
+/* colors #201e21 #ddc2a5 #e0aa6e */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* Nav-Bar Decoration*/
+/* maine nav bar */
+header {
+    background-color: #ffffff;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* flex: auto; */
+    border-bottom: 1.5px solid black;
+    justify-content: space-between;
+}
+
+header h1 {
+    position: relative;
+    top: 8px;
+    left: 20px;
+    color: white;
+}
+
+header h1 .logo_part_one {
+    background-color: #e0aa6e;
+    border: solid 0.5px white;
+    border-radius: 10%;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+header h1 .logo_part_tow {
+    color: #e0aa6e;
+    border-left: none;
+    border-radius: 10%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* links in nav bar styling */
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 60%;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+header ul li {
+
+    width: 150px;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+header ul li:hover {
+    text-shadow: 2px 2px 30px black;
+    cursor: pointer;
+    color: #000000cf;
+    transition: color 0.5s ease-out;
+    text-shadow: 0 0 1px white;
+    /* border-bottom: 2px solid #c01799cf; */
+}
+
+header ul li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #d848b6cf;
+    transition: width .3s;
+    margin-top: 10px
+}
+
+header ul li:hover::after {
+    width: 85%;
+    transition: width .3s;
+}
+
+header ul li#active {
+    color: #474643;
+    margin-top: 8px;
+    font-size: 28px;
+    border-left: 4px solid #000000;
+    border-top: 3px solid rgb(0, 0, 0);
+    margin-top: 5px;
+    text-shadow: 2px 2px 30px black;
+    border-top-right-radius: 20px;
+}
+
+/* Start The body */
+main .main_container {
+    color: rgb(0, 0, 0);
+    margin: 30px auto 0;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+}
+
+main .Grande_title {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.famous {
+    color: #ff0022;
+    font-weight: bolder;
+}
+
+main div p {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: larger;
+
+}
+
+main .main_container .disc_en {
+    direction: ltr;
+    line-height: 30px;
+    background-color: #ea748e4d;
+    border-radius: 30%;
+    padding-bottom: 10px;
+    margin: 0 2px;
+}
+
+.disc_ar {
+    direction: rtl;
+    padding-right: 60px;
+    line-height: 30px;
+    font-size: larger;
+    font-weight: bold;
+    color: #30030d;
+
+}
+
+.not_anymore {
+    text-align: center;
+    color: rgb(29, 28, 28);
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.logoss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.logoss .one {
+    font-size: 60px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.logoss .fa-instagram {
+    text-shadow: 3px 3px 20px red;
+
+}
+
+.logoss .fa-tiktok {
+    text-shadow: 3px 3px 20px #5fd2cf;
+
+}
+
+.logoss .fa-youtube {
+    text-shadow: 3px 3px 20px #ff0000;
+
+}
+
+.logoss .fa-plus {
+    text-shadow: 3px 3px 20px #07b71a;
+
+}
+
+footer div {
+    text-align: center;
+    margin-top: 35px;
+}

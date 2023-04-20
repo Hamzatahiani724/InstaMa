@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back {
+    position: absolute;
+    top: 50px;
+    left: 580px;
+    border: none;
+    font-size: 18px;
+    height: 50px;
+    width: 130px;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgba(152, 139, 224, 0.637);
+}
+
+main .jj {
+    background-color: white;
+    width: 310px;
+    height: 410px;
+    text-align: center;
+    margin-top: 150px;
+    border: 2px solid rgba(0, 0, 0, 0.671);
+}
+
+main div .nn {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(255, 0, 157);
+    padding: 8px 0;
+}
+
+main div .insta100k_reque {
+    line-height: 24px;
+    text-align: left;
+}
+
+main div .insta100k_reque button {
+    position: relative;
+    left: 105px;
+    height: 35px;
+    font-weight: bold;
+    width: 110px;
+}
